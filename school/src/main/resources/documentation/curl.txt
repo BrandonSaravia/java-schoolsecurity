@@ -1,0 +1,18 @@
+//Student Controller
+
+curl -X GET https://bps-school.herokuapp.com/students/students
+curl -X GET https://bps-school.herokuapp.com/students/Student/1
+curl -X GET https://bps-school.herokuapp.com/students/student/namelike/J
+curl -X POST https://bps-school.herokuapp.com/students/Student -d "{ \"name\": \"Luffy\"}" -H "Content-Type: application/json"4
+curl -X PUT https://bps-school.herokuapp.com/students/Student/2 -d "{\"name\":\"Juliano\"}" -H "Content-Type: application/json"
+curl -X DELETE https://bps-school.herokuapp.com/students/Student/3
+
+
+
+
+
+//Course Controller
+
+curl -X GET https://bps-school.herokuapp.com/courses/courses
+curl -X GET https://bps-school.herokuapp.com/courses/studcount
+curl -X DELETE https://bps-school.herokuapp.com/courses/courses/1
